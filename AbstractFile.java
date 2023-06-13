@@ -1738,7 +1738,7 @@ public abstract class AbstractFile extends AbstractContent {
 	 * @param sha1Hash           SHA-1 hash of the file, or null if not present
 	 * @param knownState         knownState status of the file, or null if
 	 *                           unknown (default)
-	 * @param parentPath
+	 * @param parentPath         Parent path
 	 * @param mimeType           The MIME type of the file, can be null.
 	 * @param extension          The extension part of the file name (not
 	 *                           including the '.'), can be null.
